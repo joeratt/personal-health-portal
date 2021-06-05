@@ -37,7 +37,7 @@
               fname = patient.name[0].given.join(' ');
             }
             if(patient.name[0].family !== 'undefined') {
-              lname = patient.name[0].family.join(' ');
+              lname = patient.name[0].family;
             }
           }
 
